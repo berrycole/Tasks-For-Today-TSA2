@@ -80,7 +80,7 @@ Manual walkthrough:
 
 ## Repository and hosting
 
-This directory is a separate Git repository with its own history and no inherited remote. To publish it, create a new GitHub repository named `tasks-for-today-tsa2`, then add that new remote and push `main`. Never use the original LokalCart remote.
+This project is published at [berrycole/Tasks-For-Today-TSA2](https://github.com/berrycole/Tasks-For-Today-TSA2). It has its own Git history and remote, separate from the original LokalCart repository.
 
 The assignment also asks for a hosted URL. Hosting is not configured by the local setup. A host needs PHP 8.2+, the required extensions, Composer dependencies, a document root pointing to `public/`, and writable storage. Set `CI_ENVIRONMENT=production` and `app.baseURL` to the HTTPS site URL. Use persistent storage for SQLite, or a separate MySQL database. Run migrations and seed on that new database, with a chosen demo password. Do not expose the project root or use PHP's development server for public hosting.
 
@@ -99,3 +99,4 @@ The assignment also asks for a hosted URL. Hosting is not configured by the loca
 
 - [CodeIgniter validation](https://codeigniter4.github.io/userguide/libraries/validation.html)
 - [CodeIgniter controller filters](https://codeigniter4.github.io/userguide/incoming/filters.html)
+

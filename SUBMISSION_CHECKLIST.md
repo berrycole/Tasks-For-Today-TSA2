@@ -7,6 +7,7 @@
 - [x] Database migration and demo seeder
 - [x] Automated access-control and CRUD verification
 - [x] Independent local Git repository and setup README
-- [ ] Publish this repository to a new GitHub remote
+- [x] Publish to https://github.com/berrycole/Tasks-For-Today-TSA2
 - [ ] Deploy to a PHP host and verify the hosted workflows
 - [ ] Submit the new GitHub URL and hosted application URL
+
